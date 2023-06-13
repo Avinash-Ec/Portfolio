@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="nav">
+        <a href="index.html"><i class="fa-solid fa-arrow-left fa-bounce">&nbsp;&nbsp;&nbsp; Go Back</i></a>
+    </div>
+
+    <div id="message">
+        <p>I'am excited to work with you</p>
+        <p>Please take a moment to tell me about your business.</p>
+        <p>This will help me get off to a rocketing quick start</p>
+    </div>
+
+    <section id="contact-section">
+        <form action="mailto:mishra.avinash.2024@gmail.com" method="post" enctype="text/plain">
+            <div class="contact">
+                <h2 align="center">Contact Me</h2>
+                <label for="name">Company name</label>
+                <input type="text" name="Company-name" id="name" class="gap" placeholder="Company name">
+
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" class="gap" placeholder="Email">
+
+                <label for="phonenumber">Contact Number</label>
+                <input type="number" name="Contact-number" id="phonenumber" class="gap"
+                    placeholder="Contact number">
+
+                <label for="textarea">Message</label>
+                <textarea name="Message" id="textarea" class="gap"></textarea>
+                <button>Send Message</button>
+
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <div class="footer">
+            <h2>© Copyright Avinash Mishra. All rights reserved.</h2>
+        </div>
+    </section>
+
+    <script>
+        function xyz() {
+            var x = document.getElementsByTagName("p").innerHTML
+            x[0] = "hello"
+
+        }
+    </script>
+</body>
+
+</html>
